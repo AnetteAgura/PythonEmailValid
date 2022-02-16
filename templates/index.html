@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Validation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <img src="https://i.pinimg.com/originals/62/d8/22/62d822921a66e6a03d68e44c43427400.gif">
+    <form action="/checked/" method="post">
+        <label for="email">EMAIL:</label><br>
+        <input class="email" type="text" placeholder="Enter the email" id="email" name="email"><br><br>
+        <input class="button" type="submit" value="Check!" />
+    </form>
+
+</body>
+</html>
