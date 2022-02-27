@@ -10,8 +10,12 @@
 
 ## How to setup:
 
-Install all dependencies
+**Install all dependencies**
+
+```
+pip install -r requirements.txt
+```
 
 ## How to run:
 
-SHIFT + F10
+**SHIFT + F10** in app.py file
