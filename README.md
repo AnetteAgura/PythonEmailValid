@@ -18,4 +18,6 @@ pip install -r requirements.txt
 
 ## How to run:
 
-**SHIFT + F10** in app.py file
+```
+python app.py
+```
